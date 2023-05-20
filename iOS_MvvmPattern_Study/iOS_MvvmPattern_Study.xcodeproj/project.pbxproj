@@ -10,12 +10,17 @@
 		9E76B13B2A18EBD50002C7BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76B13A2A18EBD50002C7BB /* AppDelegate.swift */; };
 		9E76B13D2A18EBD50002C7BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76B13C2A18EBD50002C7BB /* SceneDelegate.swift */; };
 		9E76B13F2A18EBD50002C7BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76B13E2A18EBD50002C7BB /* ViewController.swift */; };
-		9E76B1422A18EBD50002C7BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E76B1402A18EBD50002C7BB /* Main.storyboard */; };
 		9E76B1442A18EBD50002C7BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E76B1432A18EBD50002C7BB /* Assets.xcassets */; };
 		9E76B1472A18EBD50002C7BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E76B1452A18EBD50002C7BB /* LaunchScreen.storyboard */; };
 		9E76B1522A18EBD50002C7BB /* iOS_MvvmPattern_StudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76B1512A18EBD50002C7BB /* iOS_MvvmPattern_StudyTests.swift */; };
 		9E76B15C2A18EBD50002C7BB /* iOS_MvvmPattern_StudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76B15B2A18EBD50002C7BB /* iOS_MvvmPattern_StudyUITests.swift */; };
 		9E76B15E2A18EBD50002C7BB /* iOS_MvvmPattern_StudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76B15D2A18EBD50002C7BB /* iOS_MvvmPattern_StudyUITestsLaunchTests.swift */; };
+		9E76B16B2A18ED750002C7BB /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76B16A2A18ED750002C7BB /* Observer.swift */; };
+		9E76B16F2A18F2120002C7BB /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76B16E2A18F2120002C7BB /* CustomColor.swift */; };
+		9E76B1722A18F4FE0002C7BB /* NaverShoppingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76B1712A18F4FE0002C7BB /* NaverShoppingAPI.swift */; };
+		9E76B1762A18F85E0002C7BB /* NaverAPIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76B1752A18F85E0002C7BB /* NaverAPIKeys.swift */; };
+		9E76B1782A18F9CC0002C7BB /* NaverShoppingNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76B1772A18F9CC0002C7BB /* NaverShoppingNetworkManager.swift */; };
+		9E76B17B2A18FB420002C7BB /* NaverShoppingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E76B17A2A18FB420002C7BB /* NaverShoppingResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +45,6 @@
 		9E76B13A2A18EBD50002C7BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E76B13C2A18EBD50002C7BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9E76B13E2A18EBD50002C7BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9E76B1412A18EBD50002C7BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E76B1432A18EBD50002C7BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E76B1462A18EBD50002C7BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E76B1482A18EBD50002C7BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		9E76B1572A18EBD50002C7BB /* iOS_MvvmPattern_StudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_MvvmPattern_StudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E76B15B2A18EBD50002C7BB /* iOS_MvvmPattern_StudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_MvvmPattern_StudyUITests.swift; sourceTree = "<group>"; };
 		9E76B15D2A18EBD50002C7BB /* iOS_MvvmPattern_StudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_MvvmPattern_StudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9E76B16A2A18ED750002C7BB /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		9E76B16E2A18F2120002C7BB /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		9E76B1712A18F4FE0002C7BB /* NaverShoppingAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverShoppingAPI.swift; sourceTree = "<group>"; };
+		9E76B1752A18F85E0002C7BB /* NaverAPIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverAPIKeys.swift; sourceTree = "<group>"; };
+		9E76B1772A18F9CC0002C7BB /* NaverShoppingNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverShoppingNetworkManager.swift; sourceTree = "<group>"; };
+		9E76B17A2A18FB420002C7BB /* NaverShoppingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverShoppingResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +109,12 @@
 		9E76B1392A18EBD50002C7BB /* iOS_MvvmPattern_Study */ = {
 			isa = PBXGroup;
 			children = (
+				9E76B1702A18F4520002C7BB /* Network */,
+				9E76B16C2A18F14E0002C7BB /* Configuration */,
 				9E76B13A2A18EBD50002C7BB /* AppDelegate.swift */,
 				9E76B13C2A18EBD50002C7BB /* SceneDelegate.swift */,
 				9E76B13E2A18EBD50002C7BB /* ViewController.swift */,
-				9E76B1402A18EBD50002C7BB /* Main.storyboard */,
+				9E76B1752A18F85E0002C7BB /* NaverAPIKeys.swift */,
 				9E76B1432A18EBD50002C7BB /* Assets.xcassets */,
 				9E76B1452A18EBD50002C7BB /* LaunchScreen.storyboard */,
 				9E76B1482A18EBD50002C7BB /* Info.plist */,
@@ -125,6 +137,41 @@
 				9E76B15D2A18EBD50002C7BB /* iOS_MvvmPattern_StudyUITestsLaunchTests.swift */,
 			);
 			path = iOS_MvvmPattern_StudyUITests;
+			sourceTree = "<group>";
+		};
+		9E76B16C2A18F14E0002C7BB /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				9E76B16D2A18F1FD0002C7BB /* Extension */,
+				9E76B16A2A18ED750002C7BB /* Observer.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		9E76B16D2A18F1FD0002C7BB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9E76B16E2A18F2120002C7BB /* CustomColor.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9E76B1702A18F4520002C7BB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9E76B1792A18FB300002C7BB /* Entity */,
+				9E76B1712A18F4FE0002C7BB /* NaverShoppingAPI.swift */,
+				9E76B1772A18F9CC0002C7BB /* NaverShoppingNetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9E76B1792A18FB300002C7BB /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				9E76B17A2A18FB420002C7BB /* NaverShoppingResponse.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +280,6 @@
 			files = (
 				9E76B1472A18EBD50002C7BB /* LaunchScreen.storyboard in Resources */,
 				9E76B1442A18EBD50002C7BB /* Assets.xcassets in Resources */,
-				9E76B1422A18EBD50002C7BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +304,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E76B17B2A18FB420002C7BB /* NaverShoppingResponse.swift in Sources */,
+				9E76B16B2A18ED750002C7BB /* Observer.swift in Sources */,
 				9E76B13F2A18EBD50002C7BB /* ViewController.swift in Sources */,
 				9E76B13B2A18EBD50002C7BB /* AppDelegate.swift in Sources */,
+				9E76B16F2A18F2120002C7BB /* CustomColor.swift in Sources */,
 				9E76B13D2A18EBD50002C7BB /* SceneDelegate.swift in Sources */,
+				9E76B1722A18F4FE0002C7BB /* NaverShoppingAPI.swift in Sources */,
+				9E76B1762A18F85E0002C7BB /* NaverAPIKeys.swift in Sources */,
+				9E76B1782A18F9CC0002C7BB /* NaverShoppingNetworkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +349,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9E76B1402A18EBD50002C7BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9E76B1412A18EBD50002C7BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9E76B1452A18EBD50002C7BB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,7 +485,6 @@
 				INFOPLIST_FILE = iOS_MvvmPattern_Study/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +511,6 @@
 				INFOPLIST_FILE = iOS_MvvmPattern_Study/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
