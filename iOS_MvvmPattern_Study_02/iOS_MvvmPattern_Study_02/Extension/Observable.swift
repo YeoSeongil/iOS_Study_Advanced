@@ -27,3 +27,6 @@ final class Observable<T> {
         listener?(value)
     }
 }
+git filter-branch --force --index-filter "git rm --cached
+--ignore-unmatch ./iOS_MvvmPattern_Study_02/iOS_MvvmPattern_Study_02/Network/APIKey.swift" --prune-empty --tag-name-filter cat -- --all 
+
